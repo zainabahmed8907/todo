@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+}
+a{
+  color: black !important;
+}
+.myCard
+{
+  margin-top: 30px;
+}
+.auth-card
+{
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto ;
+}
+.card>h3{
+  text-align: center;
+  padding-top: 10px;
+  position: relative;
+}
+.card>input[type='text']
+{
+  padding: 10px;
+  outline: none;
+}
+.gallery
+{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+ 
+}
+.item
+{
+  width: 33.33%;
+  padding-right: 12px;
+  padding-bottom: 12px;
+}
+.home
+{
+  margin: 26px auto;
+}
+.home-card{
+  max-width: 500px;
+  height: max-content;
+  margin: 26px auto;
+}
+.todocard{
+  padding: 20px;
+}
+.todo-card{
+  display: block;
+  margin: 100px auto;
+  max-width: 550px;
+
+}
+#todobtn{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+.todos
+{
+  padding:15px;
+}
+.status
+{
+  padding-right: 10px;
+}
+#trash{
+float:right;
+display:flex;
+align-items: center;
+justify-content: center;
+background-color: transparent;
+color: red;
+}
